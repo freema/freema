@@ -17,6 +17,7 @@ a hosting platform for agent-built apps and a pixel-art game portal.
 - 🎮 [PixelDen](https://www.pixelden.io): browser games portal, pixel art made with AI tooling
 - 🍞 [drobek](https://github.com/freema/drobek): self-hosted vibe coding hosting. Your agent writes the frontend over MCP, the backend is platform modules: auth, data, forms, email, files and an API proxy with server-side secrets. AGPL-3.0 · [drobek.app](https://drobek.app)
 - ⚒️ [codeforge](https://github.com/freema/codeforge): AI coding sessions over git repos (Claude Code, Codex, Cursor) on a server, with live stream, cost tracking and PR review
+- 📝 [vellum](https://github.com/freema/vellum): self-hosted MCP server over a folder of markdown, one Go binary, no DB
 
 **MCP servers**
 
@@ -24,7 +25,6 @@ a hosting platform for agent-built apps and a pixel-art game portal.
 - 🦞 [openclaw-mcp](https://github.com/freema/openclaw-mcp): bridge between Claude.ai and a self-hosted OpenClaw assistant, with OAuth
 - 📗 [mcp-gsheets](https://github.com/freema/mcp-gsheets): read, write and manage Google Sheets from Claude, Cursor and friends
 - 🎨 [mcp-design-system-extractor](https://github.com/freema/mcp-design-system-extractor): lets agents read your Storybook design system
-- 📝 [vellum](https://github.com/freema/vellum): self-hosted MCP server over a folder of markdown, one Go binary, no DB
 
 **Also:** [cursor-plugin-cc](https://github.com/freema/cursor-plugin-cc) · [mcp-jira-stdio](https://github.com/freema/mcp-jira-stdio) · [pixelforge-mcp](https://github.com/freema/pixelforge-mcp) · [openclaw-a2a](https://github.com/freema/openclaw-a2a) · [ai-skills](https://github.com/freema/ai-skills)
 
