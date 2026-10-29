@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "header": "node scripts/header.ts",
+    "contributions": "node scripts/contributions.ts"
+  }
+}

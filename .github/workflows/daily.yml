@@ -1,0 +1,53 @@
+name: Daily refresh
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  contributions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Redraw the contribution graph
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/contributions.ts "$GITHUB_REPOSITORY_OWNER"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contributions-*.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Redraw contribution graph [skip ci]"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 3; done
+          exit 1
+
+  blog-posts:
+    needs: contributions
+    runs-on: ubuntu-latest
+    steps:
+      # Latest main, so it includes the graph commit from the job above.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: https://dev.to/feed/freema
+          max_post_count: 3
+          commit_message: 'Update latest dev.to posts [skip ci]'
