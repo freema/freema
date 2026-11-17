@@ -38,9 +38,9 @@ a hosting platform for agent-built apps and a pixel-art game portal.
 **Latest writing**
 
 <!-- BLOG-POST-LIST:START -->
+- [This isn&#39;t Three.js. This world is code. Meet Wallhammer Web.](https://dev.to/freema/this-isnt-threejs-this-world-is-code-meet-wallhammer-web-19j)
 - [Wallhammer Web: building destruction in my TypeScript and WebGL2 engine](https://dev.to/freema/wallhammer-web-building-destruction-in-my-typescript-and-webgl2-engine-46ni)
 - [Claude Code built the app. I refused to let it publish itself.](https://dev.to/freema/claude-code-built-the-app-i-refused-to-let-it-publish-itself-718)
-- [Your AI-built app wants your API key. I built drobek so it never gets it.](https://dev.to/freema/your-ai-built-app-wants-your-api-key-i-built-drobek-so-it-never-gets-it-4oj5)
 <!-- BLOG-POST-LIST:END -->
 
 🌐 [tomasgrasl.cz](https://www.tomasgrasl.cz) · ✍️ [dev.to](https://dev.to/freema) · 💬 [/dev/null](https://dev-null.sh/@freema) · 🦋 [Bluesky](https://bsky.app/profile/grasl.bsky.social) · 𝕏 [@GraslT](https://x.com/GraslT)
