@@ -9,12 +9,13 @@ I commute around Europe: Finland, Czechia, Estonia.
 I enjoy Go, PHP, Node.js/TypeScript and C#, and I pick whatever fits the job.
 My philosophy is laziness as productivity: automate the boring parts, keep a human in the loop.
 Most of what I build is open source: MCP servers, Claude Code plugins,
-a hosting platform for agent-built apps and a pixel-art game portal.
+a hosting platform for agent-built apps, a web 3D engine and a pixel-art game portal.
 
 **Products**
 
 - 📊 [Metrifyr](https://www.metrifyr.com): your marketing data for AI agents, over MCP. GA4, Search Console, Tag Manager, AdSense, PageSpeed and keyword research in one connector for Claude, Cursor and friends. Built because I kept doing the same GA4 digging by hand.
 - 🎮 [PixelDen](https://www.pixelden.io): browser games portal, pixel art made with AI tooling
+- 🧱 [wallhammer-web](https://github.com/freema/wallhammer-web): web 3D engine on plain WebGL2 where the whole world is built from code. No graphics library, no image files, deterministic simulation, streamed worlds from one house to a solar system. MIT · [npm](https://www.npmjs.com/package/wallhammer-web)
 - 🍞 [drobek](https://github.com/freema/drobek): self-hosted vibe coding hosting. Your agent writes the frontend over MCP, the backend is platform modules: auth, data, forms, email, files and an API proxy with server-side secrets. AGPL-3.0 · [drobek.app](https://drobek.app)
 - ⚒️ [codeforge](https://github.com/freema/codeforge): AI coding sessions over git repos (Claude Code, Codex, Cursor) on a server, with live stream, cost tracking and PR review
 - 📝 [vellum](https://github.com/freema/vellum): self-hosted MCP server over a folder of markdown, one Go binary, no DB
