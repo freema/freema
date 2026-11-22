@@ -39,9 +39,9 @@ a hosting platform for agent-built apps, a web 3D engine and a pixel-art game po
 **Latest writing**
 
 <!-- BLOG-POST-LIST:START -->
+- [Rivers that cannot run uphill: procedural rivers, lakes and waterfalls in plain WebGL2](https://dev.to/freema/rivers-that-cannot-run-uphill-procedural-rivers-lakes-and-waterfalls-in-plain-webgl2-48bn)
+- [Farther Shore: a live WebGL2 demo where the whole planet is one seed](https://dev.to/freema/farther-shore-a-live-webgl2-demo-where-the-whole-planet-is-one-seed-3c3i)
 - [This isn&#39;t Three.js. This world is code. Meet Wallhammer Web.](https://dev.to/freema/this-isnt-threejs-this-world-is-code-meet-wallhammer-web-19j)
-- [Wallhammer Web: building destruction in my TypeScript and WebGL2 engine](https://dev.to/freema/wallhammer-web-building-destruction-in-my-typescript-and-webgl2-engine-46ni)
-- [Claude Code built the app. I refused to let it publish itself.](https://dev.to/freema/claude-code-built-the-app-i-refused-to-let-it-publish-itself-718)
 <!-- BLOG-POST-LIST:END -->
 
 🌐 [tomasgrasl.cz](https://www.tomasgrasl.cz) · ✍️ [dev.to](https://dev.to/freema) · 💬 [/dev/null](https://dev-null.sh/@freema) · 🦋 [Bluesky](https://bsky.app/profile/grasl.bsky.social) · 𝕏 [@GraslT](https://x.com/GraslT)
