@@ -8,7 +8,7 @@ const W = 800;
 const H = 128;
 const P = 8; // grid size
 const TITLE = 'TOMAS GRASL';
-const SUBTITLE = 'MCP SERVERS · INDIE GAMES';
+const SUBTITLE = 'PHP · GO · TYPESCRIPT · C · C++ · C#';
 
 // Loud late-night colours: purple sky, hot pink and yellow.
 const COLORS = {
@@ -63,7 +63,7 @@ export function header(theme: Theme): string {
 
   const style = `.tw{animation:tw 3s steps(1) infinite}@keyframes tw{0%,100%{opacity:1}50%{opacity:.25}}@media (prefers-reduced-motion:reduce){.tw{animation:none}}`;
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" shape-rendering="crispEdges" role="img" aria-label="Tomas Grasl: MCP servers, indie games."><style>${style}</style>${parts.join('')}</svg>\n`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" shape-rendering="crispEdges" role="img" aria-label="Tomas Grasl: PHP, Go, TypeScript, C, C++, C#."><style>${style}</style>${parts.join('')}</svg>\n`;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
